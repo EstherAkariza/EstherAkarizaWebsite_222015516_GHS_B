@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f8ff; /* Light blue background */
+      color: #333; /* Dark gray text color */
+    }
+    h1 {
+      text-align: center;
+      color: #008000; /* Green */
+    }
+    #header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #header a {
+      text-decoration: none;
+      color: #333;
+      margin-right: 20px;
+    }
+    #search {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<div id="header">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="patients.html">Patients</a>
+    <a href="healycare_adm.html">Healthcare System</a>
+  <hr>
+</div>
+
+<h1>Patient List</h1>
+
+<div id="search">
+  <label for="searchField">Search:</label>
+  <input type="text" id="searchField" name="searchField" placeholder="Enter patient name...">
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Patient Name</th>
+      <th>Guardian's Name</th>
+      <th>Age</th>
+      <th>Address</th>
+      <th>Condition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mike</td>
+      <td>John</td>
+      <td>45</td>
+      <td>123 Main St, City</td>
+      <td>Diabetes</td>
+    </tr>
+    <tr>
+      <td>Cloud</td>
+      <td>David</td>
+      <td>32</td>
+      <td>456 Oak St, Town</td>
+      <td>Hypertension</td>
+    </tr>
+    <tr>
+      <td>Paulo</td>
+      <td>Michael</td>
+      <td>56</td>
+      <td>789 Maple St, Village</td>
+      <td>Asthma</td>
+    </tr>
+    <tr>
+      <td>Jack</td>
+      <td>Robert</td>
+      <td>38</td>
+      <td>101 Pine St, Countryside</td>
+      <td>Arthritis</td>
+    </tr>
+    <tr>
+      <td>Emma</td>
+      <td>William</td>
+      <td>27</td>
+      <td>246 Elm St, Suburb</td>
+      <td>Anxiety Disorder</td>
+    </tr>
+    <!-- More patient rows go here -->
+  </tbody>
+</table>
+
+</body>
+</html>

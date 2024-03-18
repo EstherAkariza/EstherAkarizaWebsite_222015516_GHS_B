@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <style>
+    body {
+      background-image: url('./images/contactbg.jpg');
+      color: blue;
+      font-size: 22px;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      margin-right: 20px;
+    }
+    h1 {
+      color: #008000; /* Green */
+    }
+    #header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #008000; /* Green */
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #f0f0f0; /* Light gray background */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+    input[type="submit"] {
+      background-color: #008000; /* Green */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #006400; /* Dark green on hover */
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="patients.html">Patients</a>
+    <a href="healycare_adm.html">Healthcare System</a>
+  <hr>
+</div>
+  <hr>
+  <h1><u>Contact Us</u></h1>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
